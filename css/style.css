@@ -1,0 +1,36 @@
+/* Common Styles */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* Header Area */
+.header {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/BannerImage.png);
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+.banner-content {
+    padding: 180px 350px;
+}
+
+.banner-text {
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin:0;
+    padding-bottom:16px;
+}
+
+
+.banner-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    margin:0;
+}
