@@ -3,6 +3,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+
 /* Header Area */
 .header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/BannerImage.png);
@@ -22,8 +23,8 @@ body {
     color: #FFF;
     font-size: 32px;
     font-weight: 400;
-    margin:0;
-    padding-bottom:16px;
+    margin: 0;
+    padding-bottom: 16px;
 }
 
 
@@ -32,5 +33,87 @@ body {
     color: #FFF;
     font-size: 72px;
     font-weight: 900;
-    margin:0;
+    margin: 0;
+}
+
+/* SECTION 1 */
+.section1 {
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0;
+}
+
+.section1-title {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.section1-desc {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+
+.section1-title2 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.section1-image {
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+/* Section 2 */
+.section2 {
+    display: flex;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+.section2-content{
+    padding-left:126px;
+    max-width: 710px;
+}
+
+.section2-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.section2-desc {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.section2-btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: black;
+    color:#FFF;
+    border: none;
+}
+.section2-pic{
+    padding-right:144px;
 }
