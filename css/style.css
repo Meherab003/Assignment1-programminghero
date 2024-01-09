@@ -114,6 +114,7 @@ body {
     background: black;
     color: #FFF;
     border: none;
+    cursor: pointer;
 }
 
 .section2-pic {
@@ -160,6 +161,7 @@ body {
     font-family: 'Inter';
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* Section 4 */
@@ -303,6 +305,9 @@ body {
     height: 450px;
     border-radius: 16px;
     margin: 12px;
+}
+.sinister-six:hover {
+    box-shadow: 0px 0px 10px gray;
 }
 
 /* section7 */
