@@ -202,9 +202,34 @@ body {
     margin-bottom: 64px;
 }
 
+/* Section5 */
+.discount-container{
+    margin:0 auto;
+    width: 1320px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../resources/Rectangle 2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+}
+
+.offer-container{
+    position:relative;
+    top:-100px;
+    z-index:-1;
+}
+
+.discount-image{
+    position:absolute;
+    top:60px;
+    right:270px;
+}
+
 /* Section 6 */
 .section6 {
-    margin: 0 auto;
+    margin: 120px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -294,6 +319,7 @@ body {
     font-family: 'Inter';
     font-size: 20px;
     font-weight: 600;
+    cursor:pointer;
 }
 
 /* Footer Section */
