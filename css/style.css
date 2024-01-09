@@ -238,7 +238,7 @@ body {
     font-weight: 400;
     width: 896px;
     margin-bottom: 48px;
-    margin-top:0;
+    margin-top: 0;
 }
 
 .s6-image-row1 {
@@ -258,7 +258,8 @@ body {
 
 /* section7 */
 .section7 {
-    background:rgba(255, 0, 0, 0.05);;
+    background: rgba(255, 0, 0, 0.05);
+    ;
     margin: 0 auto;
     border-radius: 16px;
     display: flex;
@@ -266,6 +267,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding-top:80px;
+    padding-bottom:80px;
 }
 
 .email {
@@ -292,9 +295,42 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
+
 /* Footer Section */
-.footer{
+.footer {
     background: #070211;
+    margin-top: 120px;
+
+}
+
+.foot-text {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style:normal;
+    font-weight: 500;
     margin:0;
-    
+}
+.num-web-cont{
+    display: flex;
+    align-items: flex-start;
+    gap:16px;
+}
+.foot-sec1{
+    display:flex;
+    justify-content:space-between;
+    padding:60px;
+}
+.foot-sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:48px;
+    padding-bottom:48px;
+    padding-left:30%;
+    padding-right:30%;
+}
+.foot-sec3{
+    padding-top:50px;
+    padding-bottom:120px;
 }
