@@ -132,6 +132,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 16px;
+    padding-bottom:110px;
 }
 
 .text_red {
@@ -147,6 +148,7 @@ body {
     line-height: 56px;
     text-align: center;
     margin-bottom: 48px;
+    margin-top:100px;
 }
 
 .section3-btn {
@@ -161,7 +163,29 @@ body {
 }
 
 /* Section 4 */
-.section4 {
+.section4-top{
+    margin:120px auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle-image{
+    padding:30px;
+    border:16px solid #F00;
+    border-radius: 463px;
+    align-content: center;
+}
+.section4-right{
+    padding-left:117px;
+}
+.sec4-right-title {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.section4-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -203,10 +227,10 @@ body {
 }
 
 /* Section5 */
-.discount-container{
-    margin:0 auto;
+.discount-container {
+    margin: 0 auto;
     width: 1320px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background: url('../resources/Rectangle 2.png');
@@ -215,16 +239,16 @@ body {
     position: relative;
 }
 
-.offer-container{
-    position:relative;
-    top:-100px;
-    z-index:-1;
+.offer-container {
+    position: relative;
+    top: -100px;
+    z-index: -1;
 }
 
-.discount-image{
-    position:absolute;
-    top:60px;
-    right:270px;
+.discount-image {
+    position: absolute;
+    top: 60px;
+    right: 270px;
 }
 
 /* Section 6 */
@@ -292,8 +316,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding-top:80px;
-    padding-bottom:80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .email {
@@ -319,7 +343,7 @@ body {
     font-family: 'Inter';
     font-size: 20px;
     font-weight: 600;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /* Footer Section */
@@ -333,30 +357,34 @@ body {
     color: #FFF;
     font-family: 'Inter';
     font-size: 24px;
-    font-style:normal;
+    font-style: normal;
     font-weight: 500;
-    margin:0;
+    margin: 0;
 }
-.num-web-cont{
+
+.num-web-cont {
     display: flex;
     align-items: flex-start;
-    gap:16px;
+    gap: 16px;
 }
-.foot-sec1{
-    display:flex;
-    justify-content:space-between;
-    padding:60px;
+
+.foot-sec1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
 }
-.foot-sec2{
+
+.foot-sec2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top:48px;
-    padding-bottom:48px;
-    padding-left:30%;
-    padding-right:30%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 30%;
+    padding-right: 30%;
 }
-.foot-sec3{
-    padding-top:50px;
-    padding-bottom:120px;
+
+.foot-sec3 {
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
